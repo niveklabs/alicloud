@@ -1,0 +1,53 @@
+module "alicloud_slb_listener" {
+  source = "./modules/alicloud/r/alicloud_slb_listener"
+
+  acl_id                       = null
+  acl_status                   = null
+  acl_type                     = null
+  backend_port                 = null
+  bandwidth                    = null
+  cookie                       = null
+  cookie_timeout               = null
+  delete_protection_validation = null
+  description                  = null
+  enable_http2                 = null
+  established_timeout          = null
+  forward_port                 = null
+  frontend_port                = null
+  gzip                         = null
+  health_check                 = null
+  health_check_connect_port    = null
+  health_check_domain          = null
+  health_check_http_code       = null
+  health_check_interval        = null
+  health_check_method          = null
+  health_check_timeout         = null
+  health_check_type            = null
+  health_check_uri             = null
+  healthy_threshold            = null
+  idle_timeout                 = null
+  instance_port                = null
+  lb_port                      = null
+  lb_protocol                  = null
+  listener_forward             = null
+  load_balancer_id             = null
+  master_slave_server_group_id = null
+  persistence_timeout          = null
+  protocol                     = null
+  request_timeout              = null
+  scheduler                    = null
+  server_certificate_id        = null
+  server_group_id              = null
+  ssl_certificate_id           = null
+  sticky_session               = null
+  sticky_session_type          = null
+  tls_cipher_policy            = null
+  unhealthy_threshold          = null
+
+  x_forwarded_for = [{
+    retrive_client_ip = null
+    retrive_slb_id    = null
+    retrive_slb_ip    = null
+    retrive_slb_proto = null
+  }]
+}
