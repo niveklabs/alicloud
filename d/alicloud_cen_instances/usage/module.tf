@@ -4,4 +4,5 @@ module "alicloud_cen_instances" {
   ids         = []
   name_regex  = null
   output_file = null
+  tags        = {}
 }

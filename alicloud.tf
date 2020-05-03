@@ -1,5 +1,5 @@
 provider "alicloud" {
-  version = "1.80.0"
+  version = "1.80.1"
 
   access_key              = null
   account_id              = null
