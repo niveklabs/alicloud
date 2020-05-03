@@ -212,6 +212,12 @@ variable "user_ca" {
   default     = null
 }
 
+variable "user_data" {
+  description = "(optional)"
+  type        = string
+  default     = null
+}
+
 variable "version" {
   description = "(optional)"
   type        = string

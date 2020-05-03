@@ -8,11 +8,6 @@ output "id" {
   value       = alicloud_adb_backup_policy.this.id
 }
 
-output "preferred_backup_period" {
-  description = "returns a set of string"
-  value       = alicloud_adb_backup_policy.this.preferred_backup_period
-}
-
 output "this" {
   value = alicloud_adb_backup_policy.this
 }

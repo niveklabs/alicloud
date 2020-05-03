@@ -4,14 +4,12 @@ variable "db_cluster_id" {
 }
 
 variable "preferred_backup_period" {
-  description = "(optional)"
+  description = "(required)"
   type        = set(string)
-  default     = null
 }
 
 variable "preferred_backup_time" {
-  description = "(optional)"
+  description = "(required)"
   type        = string
-  default     = null
 }
 

@@ -73,9 +73,8 @@ variable "tags" {
 }
 
 variable "vswitch_id" {
-  description = "(optional)"
+  description = "(required)"
   type        = string
-  default     = null
 }
 
 variable "zone_id" {

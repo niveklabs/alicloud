@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    alicloud = ">= 1.80.1"
+    alicloud = ">= 1.81.0"
   }
 }
 
@@ -41,6 +41,7 @@ resource "alicloud_cs_kubernetes" "this" {
   service_cidr                = var.service_cidr
   slb_internet_enabled        = var.slb_internet_enabled
   user_ca                     = var.user_ca
+  user_data                   = var.user_data
   version                     = var.version
   vswitch_id                  = var.vswitch_id
   vswitch_ids                 = var.vswitch_ids

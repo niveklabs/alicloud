@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    alicloud = ">= 1.80.1"
+    alicloud = ">= 1.81.0"
   }
 }
 

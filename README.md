@@ -3,7 +3,7 @@
 [embedmd]:# (alicloud.tf)
 ```tf
 provider "alicloud" {
-  version = "1.80.1"
+  version = "1.81.0"
 
   access_key              = null
   account_id              = null
@@ -29,48 +29,49 @@ provider "alicloud" {
   }
 
   endpoints {
-    actiontrail   = null
-    adb           = null
-    alikafka      = null
-    apigateway    = null
-    bssopenapi    = null
-    cas           = null
-    cbn           = null
-    cdn           = null
-    cen           = null
-    cms           = null
-    cr            = null
-    cs            = null
-    datahub       = null
-    ddosbgp       = null
-    ddoscoo       = null
-    dds           = null
-    dns           = null
-    drds          = null
-    ecs           = null
-    elasticsearch = null
-    emr           = null
-    ess           = null
-    fc            = null
-    gpdb          = null
-    kms           = null
-    kvstore       = null
-    location      = null
-    log           = null
-    market        = null
-    maxcompute    = null
-    mns           = null
-    nas           = null
-    ons           = null
-    oss           = null
-    ots           = null
-    polardb       = null
-    pvtz          = null
-    ram           = null
-    rds           = null
-    slb           = null
-    sts           = null
-    vpc           = null
+    actiontrail    = null
+    adb            = null
+    alikafka       = null
+    apigateway     = null
+    bssopenapi     = null
+    cas            = null
+    cbn            = null
+    cdn            = null
+    cen            = null
+    cms            = null
+    cr             = null
+    cs             = null
+    datahub        = null
+    ddosbgp        = null
+    ddoscoo        = null
+    dds            = null
+    dms_enterprise = null
+    dns            = null
+    drds           = null
+    ecs            = null
+    elasticsearch  = null
+    emr            = null
+    ess            = null
+    fc             = null
+    gpdb           = null
+    kms            = null
+    kvstore        = null
+    location       = null
+    log            = null
+    market         = null
+    maxcompute     = null
+    mns            = null
+    nas            = null
+    ons            = null
+    oss            = null
+    ots            = null
+    polardb        = null
+    pvtz           = null
+    ram            = null
+    rds            = null
+    slb            = null
+    sts            = null
+    vpc            = null
   }
 }
 ```

@@ -1,3 +1,8 @@
+output "connection_string" {
+  description = "returns a string"
+  value       = alicloud_polardb_cluster.this.connection_string
+}
+
 output "id" {
   description = "returns a string"
   value       = alicloud_polardb_cluster.this.id

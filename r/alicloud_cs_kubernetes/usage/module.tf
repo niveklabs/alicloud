@@ -37,6 +37,7 @@ module "alicloud_cs_kubernetes" {
   service_cidr                = null
   slb_internet_enabled        = null
   user_ca                     = null
+  user_data                   = null
   version                     = null
   vswitch_id                  = null
   vswitch_ids                 = []
